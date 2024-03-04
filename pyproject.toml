@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-telegram-bot"
+version = "0.1.0"
+description = ""
+authors = ["Raphael Coelho <raphael.phael@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+telegram = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
